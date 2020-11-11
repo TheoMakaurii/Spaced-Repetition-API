@@ -175,14 +175,14 @@ describe('User Endpoints', function () {
           name: 'Japanese',
           total_score: 0,
           words: [
-            { original: 'renshuu', translation: 'practice' },
-            { original: 'konnichiwa', translation: 'hello' },
-            { original: 'uchi', translation: 'house' },
-            { original: 'konpyu-ta', translation: 'computer' },
-            { original: 'yakusu', translation: 'translate' },
-            { original: 'sugoi', translation: 'amazing' },
-            { original: 'inu', translation: 'dog' },
-            { original: 'neiko', translation: 'cat' },
+            { original: 'れんしゅう', translation: 'practice' },
+            { original: 'こんにちわ', translation: 'hello' },
+            { original: 'うち', translation: 'house' },
+            { original: 'コンピュタ', translation: 'computer' },
+            { original: 'やくす', translation: 'translate' },
+            { original: 'すごい', translation: 'amazing' },
+            { original: 'いぬ', translation: 'dog' },
+            { original: 'ねいこ', translation: 'cat' },
           ]
         }
         return supertest(app)

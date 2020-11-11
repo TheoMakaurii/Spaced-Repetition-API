@@ -3,7 +3,7 @@ const AuthService = require('../auth/auth-service')
 
 async function requireAuth(req, res, next) {
   const authToken = req.get('Authorization') || ''
-
+  console.log("authToken", authToken)
   let bearerToken
   if (!authToken.toLowerCase().startsWith('bearer ')) {
     return res.status(401).json({ error: 'Missing bearer token' })
@@ -12,6 +12,7 @@ async function requireAuth(req, res, next) {
   }
 
   try {
+   
     const payload = AuthService.verifyJwt(bearerToken)
 
     const user = await AuthService.getUserWithUserName(

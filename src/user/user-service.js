@@ -58,14 +58,14 @@ const UserService = {
         .first()
 
       const languageWords = [
-        ['renshuu', 'practice', 2],
-        ['konnichiwa', 'hello', 3],
-        ['uchi', 'house', 4],
-        ['konpyu-ta', 'computer', 5],
-        ['yakusu', 'translate', 6],
-        ['sugoi', 'amazing', 7],
-        ['inu', 'dog', 8],
-        ['neiko', 'cat', null],
+        ['れんしゅう', 'practice', 2],
+        ['こんにちわ', 'hello', 3],
+        ['うち', 'house', 4],
+        ['コンピュタ', 'computer', 5],
+        ['やくす', 'translate', 6],
+        ['すごい', 'amazing', 7],
+        ['いぬ', 'dog', 8],
+        ['ねいこ', 'cat', null],
       ]
 
       const [languageHeadId] = await trx

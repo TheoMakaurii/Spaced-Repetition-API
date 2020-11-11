@@ -21,14 +21,14 @@ VALUES
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'renshuu', 'practice', 2),
-  (2, 1, 'konnichiwa', 'hello', 3),
-  (3, 1, 'uchi', 'house', 4),
-  (4, 1, 'konpyu-ta', 'computer', 5),
-  (5, 1, 'yakusu', 'translate', 6),
-  (6, 1, 'sugoi', 'amazing', 7),
-  (7, 1, 'inu', 'dog', 8),
-  (8, 1, 'neiko', 'cat', null);
+  (1, 1, 'れんしゅう', 'practice', 2),
+  (2, 1, 'こんにちわ', 'hello', 3),
+  (3, 1, 'うち', 'house', 4),
+  (4, 1, 'kコンピュタ', 'computer', 5),
+  (5, 1, 'やくす', 'translate', 6),
+  (6, 1, 'すごい', 'amazing', 7),
+  (7, 1, 'いぬ', 'dog', 8),
+  (8, 1, 'ねいこ', 'cat', null);
 
 UPDATE "language" SET head = 1 WHERE id = 1;
 
